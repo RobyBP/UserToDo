@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
-import android.widget.Toolbar
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.robybp.usertodo.R
@@ -21,7 +20,7 @@ class TaskDetailFragment : Fragment() {
     private lateinit var taskDescription : TextView
     private lateinit var taskPriority : TextView
     private lateinit var okButton : Button
-    private lateinit var toolbar: Toolbar
+    private lateinit var toolbar: androidx.appcompat.widget.Toolbar
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
